@@ -20,7 +20,7 @@ Funcionalidade: Cadastro de usuários
         
         Dado que eu tenho o seguinte cadastro   
             | nome  | Fernando        |
-            | email | fernando@io.com |
+            | email | fernando@i7.com |
             | senha | 123456          |
         Quando clico em Cadastrar
         Então meu cadastro deve ocorrer com sucesso
@@ -41,7 +41,7 @@ Funcionalidade: Cadastro de usuários
          | email | <email> |
          | senha | <senha> |
     Quando clico em Cadastrar
-    Então meu cadastro deve ocorrer com sucesso
+    Então devo ver a mensagem "<mensagem>"
 
     Exemplos:
       | nome     | email               | senha  | mensagem                                |
